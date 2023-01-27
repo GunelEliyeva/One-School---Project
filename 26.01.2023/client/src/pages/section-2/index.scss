@@ -1,0 +1,52 @@
+.container {
+  .our-program {
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 70px;
+    h1{
+      font-size: 50px;
+
+    }
+
+    p {
+      width: 500px;
+      margin-left: 340px;
+    }
+  }
+
+  .img-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .image {
+    width: 700px;
+    height: 700px;
+
+    img{
+        width: 100%;
+    }
+    }
+
+    .we-are{
+        width: 300px;
+        height: 500px;
+h1{
+    line-height: 29px;
+}
+        p{
+            line-height: 29px;
+        }
+
+        .fa-solid{
+            color: blueviolet;
+            margin-right: 20px;
+        }
+span{
+    line-height: 29px;
+}
+
+
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.details {
+  .container {
+    .details-page {
+      padding-top: 200px;
+      .all {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .detail-text {
+          width: 500px;
+          color: gray;
+
+          span {
+            color: black;
+          }
+
+          .go-back {
+            button {
+              background-color: rgb(139, 139, 240);
+              border: none;
+              color: white;
+              border-radius: 30px;
+              width: 120px;
+              height: 40px;
+              
+
+              font-weight: bolder;
+              font-size: 12px;
+
+              &:hover {
+                background-color: blue;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

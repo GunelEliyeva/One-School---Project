@@ -1,0 +1,70 @@
+.mesage-form{
+    background-color: #f8f9fa;
+    .container {
+    
+  .message {
+    width: 600px;
+    margin: 80px 350px;
+    padding: 50px 0;
+    h1 {
+      font-size: 50px;
+    }
+    p {
+      color: gray;
+      font-size: 18px;
+    }
+
+    .forms {
+        margin-top: 30px;
+      .fullname {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        input {
+          background-color: white;
+          width: 280px;
+          height: 45px;
+          border: 1px solid #b6b7b7;
+
+        }
+      }
+
+      .input{
+        input{
+             background-color: white;
+          width: 600px;
+          height: 45px;
+          border: 1px solid #b6b7b7;
+          margin-top: 20px;
+
+        }
+      }
+
+      textarea{
+         background-color: white;
+          width: 600px;
+          height: 200px;
+          border: 1px solid #b6b7b7;
+          margin-top: 20px;
+          color: gray;
+      }
+    }
+
+    button{
+        background-color: #7971ea;;
+        width: 300px;
+        height: 50px;
+        border: none;
+        color: white;
+        margin-top: 10px;
+        border-radius: 30px;
+        font-weight: bold;
+
+        &:hover{
+            background-color: blueviolet;
+        }
+    }
+  }
+}
+}

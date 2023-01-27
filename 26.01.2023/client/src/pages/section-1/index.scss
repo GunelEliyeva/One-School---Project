@@ -1,0 +1,79 @@
+.section-1 {
+  max-width: 1880px;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-blend-mode: multiply;
+  background-color: #41464b;
+
+  background-image: url("https://preview.colorlib.com/theme/oneschool/images/hero_1.jpg");
+  .section-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 300px;
+
+    .learn-text {
+      width: 450px;
+      h1{
+        color: white;
+        font-size: 40px;
+
+      }
+
+      p{
+        color: gray;
+        font-size: 20px;
+      }
+
+      button{
+        background-color: #7971ea;
+        border: none;
+        width: 200px;
+        height: 45px;
+        color: white;
+        border-radius: 20px;
+        
+        &:hover{
+            background-color: blueviolet;
+        }
+      }
+      
+    }
+    .sigup-form {
+      width: 400px;
+      text-align: center;
+      background-color: white;
+      border-radius: 10px;
+      padding-bottom: 40px;
+
+      form {
+        margin: 30px 0;
+        .input{
+            width: 300px;
+            height: 30px;
+            margin-bottom: 10px;
+
+            &:hover{
+                border: 1px solid blueviolet;
+            }
+        }
+      }
+
+      button{
+        
+            background-color:  #7971ea;
+            border: none;
+            width: 120px;
+            height: 40px;
+            color: white;
+            border-radius: 20px;
+            &:hover{
+                background-color: blueviolet;
+            }
+
+        
+      }
+    }
+  }
+}

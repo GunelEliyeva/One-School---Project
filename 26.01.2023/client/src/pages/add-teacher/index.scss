@@ -1,0 +1,42 @@
+.container {
+  .add {
+    width: 800px;
+    margin-left: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+
+    form {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      row-gap: 10px;
+
+      .input {
+        width: 500px;
+        height: 30px;
+        border: 2px solid blueviolet;
+      }
+
+      button {
+        width: 150px;
+        height: 50px;
+        border: none;
+        border-radius: 20px;
+        background-color: blue;
+        color: white;
+        font-size: 16px;
+        margin-top: 20px;
+
+        &:hover {
+          background-color: rgb(58, 58, 245);
+        }
+      }
+      .err {
+        color: red;
+        font-weight: bolder;
+      }
+    }
+  }
+}
